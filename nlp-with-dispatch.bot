@@ -1,0 +1,60 @@
+{
+    "name": "nlp-with-dispatch",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "id": "1",
+            "name": "development",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages"
+        },
+        {
+            "type": "luis",
+            "name": "Home Automation",
+            "appId": "",
+            "authoringKey": "",
+            "subscriptionKey": "",
+            "version": "0.1",
+            "region": "",
+            "id": "7"
+        },
+        {
+            "type": "luis",
+            "name": "Weather",
+            "appId": "",
+            "authoringKey": "",
+            "subscriptionKey": "",
+            "version": "0.1",
+            "region": "",
+            "id": "50"
+        },
+        {
+            "type": "qna",
+            "name": "qna-sample",
+            "id": "201",
+            "kbId": "15aff076-d854-4b92-bc03-ee8550eebf75",
+            "subscriptionKey": "81d8e7a0e4cb4179aac0e2f23acd271f",
+            "endpointKey":"c97b7dbf-2129-4e9f-bb9f-d0a09b2dbc1f",
+            "hostname": "https://smartqanda.azurewebsites.net/qnamaker/knowledgebases",
+        },
+        {
+            "type": "dispatch",
+            "serviceIds": [
+                "50",
+                "201",
+                "7"
+            ],
+            "name": "nlp-with-dispatchDispatch",
+            "appId": "",
+            "authoringKey": "",
+            "subscriptionKey": "",
+            "version": "Dispatch",
+            "region": "",
+            "id": "161"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
