@@ -67,7 +67,7 @@ class DispatchBot {
             default:
                 // Unknown request
                 await turnContext.sendActivity(`I do not understand that.`);
-                await turnContext.sendActivity(`I can help with weather forecast, turning devices on and off and answer general questions like 'hi', 'who are you' etc.`);
+                await turnContext.sendActivity(`I can help with weather forecast and answer general questions like 'hi', 'who are you' etc.`);
             }
 
             // save state changes
