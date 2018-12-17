@@ -35,8 +35,8 @@ This bot that relies on multiple [LUIS.ai](https://www.luis.ai) and [QnAMaker.ai
 - Try it with one of these queries
   
     ```bash
-    What\'s your name?
-    Where do you live in?
+    What is your name ?
+    Where do you live in ?
     ```
 
 # Testing the bot using Bot Framework Emulator **v4**
@@ -46,5 +46,5 @@ This bot that relies on multiple [LUIS.ai](https://www.luis.ai) and [QnAMaker.ai
 
 ## Connect to bot using Bot Framework Emulator **v4**
 - Launch Bot Framework Emulator
-- File -> Open Bot Configuration and navigate to `nlp-bpt` folder
+- File -> Open Bot Configuration and navigate to `nlp-bot` folder
 - Select `nlp-bot.bot` file
