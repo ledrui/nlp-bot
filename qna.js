@@ -3,7 +3,7 @@
 const { QnAMaker } = require('botbuilder-ai');
 
 // Name of the QnA Maker service in the .bot file.
-const QNA_CONFIGURATION = 'sample-qna';
+const QNA_CONFIGURATION = 'qna';
 // CONSTS used in QnA Maker query. See [here](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-qna?view=azure-bot-service-4.0&tabs=cs) for additional info
 const QNA_TOP_N = 1;
 const QNA_CONFIDENCE_THRESHOLD = 0.5;

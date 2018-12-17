@@ -32,7 +32,7 @@
         },
         {
             "type": "qna",
-            "name": "qna-sample",
+            "name": "qna",
             "id": "201",
             "kbId": "15aff076-d854-4b92-bc03-ee8550eebf75",
             "subscriptionKey": "81d8e7a0e4cb4179aac0e2f23acd271f",

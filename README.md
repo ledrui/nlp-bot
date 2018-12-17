@@ -1,7 +1,5 @@
 # NLP bot with Dispatch
-Try it with one of these queries:
-What's your name?
-Where do you live in?
+A friendly chat bot built with Microsoft Bot Framework and his NLU LUIS and QnAMaker 
 
 This bot that relies on multiple [LUIS.ai](https://www.luis.ai) and [QnAMaker.ai](https://qnamaker.ai) models for natural language processing (NLP).
 
@@ -16,7 +14,6 @@ This bot that relies on multiple [LUIS.ai](https://www.luis.ai) and [QnAMaker.ai
     # install the dispatch CLI tool
     npm install -g botdispatch
     ```
--
 
 # To try this sample
 - Clone the repository
@@ -35,6 +32,9 @@ This bot that relies on multiple [LUIS.ai](https://www.luis.ai) and [QnAMaker.ai
     ```bash
     npm start
     ```
+-Try it with one of these queries:
+    ```What's your name?
+    ```Where do you live in?
 
 # Testing the bot using Bot Framework Emulator **v4**
 [Microsoft Bot Framework Emulator](https://github.com/microsoft/botframework-emulator) is a desktop application that allows bot developers to test and debug their bots on localhost or running remotely through a tunnel.
